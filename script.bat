@@ -14,8 +14,8 @@ setlocal
 
     call create_array grocery " " "Apples Banana Coke Durian Ember"
 
-    echo grocery: !grocery!
-    echo array content: !grocery_length!
+    echo Grocery: !grocery!
+    echo Array content: !grocery_length!
 
     call create_array numberz " " "1 -88 3 4 -1 -2 -3 10 -99 2 3 5 6"    
     call get_minimum numberz min_numberz
@@ -23,6 +23,18 @@ setlocal
 
     call get_maximum numberz max_numberz
     echo Max: !max_numberz!
+
+    call get_power 8 3 pow
+    echo pow: !pow!
+
+    call absolute_value 74 abs
+    echo Absolute: !abs!
+
+    call range numbers "," 20
+    echo Numbers: !numbers!
+
+    call sum numberz sumz
+    echo Sumz: !sumz!
 
 endlocal
 goto :eof

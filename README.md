@@ -1,6 +1,8 @@
 # windows-batch-extra-functions
 Simple additional function for windows batch script from John Hammond Batch Tutorials in Youtube https://youtu.be/JbAyxKjUPs0
 
+All functions usage example is in script.bat.
+
 create_string.bat (video Batch 58 https://youtu.be/vIkg4eLWkMY, Batch 59 https://youtu.be/fpyTnDv6OP8 and Batch 60 https://youtu.be/r2kUMDmxOvA)
 
 create_array.bat (video Batch 61 https://youtu.be/l0ib2kCaVuA). How to use, see script.bat
@@ -10,4 +12,12 @@ enableddelayedexpansion.bat and disabledelayedexpansion.bat (video Batch 62 http
 get_minimum.bat (video Batch 64 https://youtu.be/TPPALKfoA0Q)
 
 get_maximum.bat (video Batch 65 https://youtu.be/WOuU_dCV8Iw)
+
+get_power.bat (video Batch 66 https://youtu.be/oVyxvrhs2Q0)
+
+absolute_value.bat (video Batch 67 https://youtu.be/B_eojb_KX68)
+
+range.bat (video Batch 68 https://youtu.be/l4hR-afNQ9s)
+
+sum.bat (video Batch 69 https://youtu.be/8LO36XV5S9Q)
 
