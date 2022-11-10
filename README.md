@@ -21,3 +21,5 @@ range.bat (video Batch 68 https://youtu.be/l4hR-afNQ9s)
 
 sum.bat (video Batch 69 https://youtu.be/8LO36XV5S9Q)
 
+sort.bat (video Batch 70 https://youtu.be/xQevIXwMThs)
+

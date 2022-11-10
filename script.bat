@@ -36,5 +36,8 @@ setlocal
     call sum numberz sumz
     echo Sumz: !sumz!
 
+    call sort numberz " "
+    echo Sorted: !numberz!
+
 endlocal
 goto :eof
