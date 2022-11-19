@@ -42,10 +42,13 @@ setlocal
     call create_string sentence "a lot of stuff"
     echo Sentence Length: %sentence_length%
     echo.
-    call string_center sentence 15 fill
+    call string_center sentence 1 fill
     echo !fill!
     echo.
     call capitalize "!sentence!" return
     echo Return: !return!
+    echo.
+    call string_count "!sentence!" " " total
+    echo Count is !total!
 endlocal
 goto :eof

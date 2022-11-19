@@ -23,6 +23,8 @@ sum.bat (video Batch 69 https://youtu.be/8LO36XV5S9Q)
 
 sort.bat (video Batch 70 https://youtu.be/xQevIXwMThs)
 
-string_center.bat (video Batch https://youtu.be/pnDaN-wgvp0)
+string_center.bat (video Batch 71 https://youtu.be/pnDaN-wgvp0)
 
-capitalize.bat (video Batch https://youtu.be/aIBHcM2ia64)
+capitalize.bat (video Batch 72 https://youtu.be/aIBHcM2ia64)
+
+string_count.bat (video Batch 73 https://youtu.be/YEjPx3uAxkw)
