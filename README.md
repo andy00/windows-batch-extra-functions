@@ -23,3 +23,5 @@ sum.bat (video Batch 69 https://youtu.be/8LO36XV5S9Q)
 
 sort.bat (video Batch 70 https://youtu.be/xQevIXwMThs)
 
+string_center.bat (video Batch https://youtu.be/pnDaN-wgvp0)
+
