@@ -39,11 +39,13 @@ setlocal
     call sort numberz " "
     echo Sorted: !numberz!
     echo.
-    call create_string sentence "A lot of stuff"
+    call create_string sentence "a lot of stuff"
     echo Sentence Length: %sentence_length%
     echo.
     call string_center sentence 15 fill
     echo !fill!
-
+    echo.
+    call capitalize "!sentence!" return
+    echo Return: !return!
 endlocal
 goto :eof

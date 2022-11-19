@@ -25,3 +25,4 @@ sort.bat (video Batch 70 https://youtu.be/xQevIXwMThs)
 
 string_center.bat (video Batch https://youtu.be/pnDaN-wgvp0)
 
+capitalize.bat (video Batch https://youtu.be/aIBHcM2ia64)
