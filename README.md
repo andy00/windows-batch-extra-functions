@@ -27,4 +27,4 @@ string_center.bat (video Batch 71 https://youtu.be/pnDaN-wgvp0)
 
 capitalize.bat (video Batch 72 https://youtu.be/aIBHcM2ia64)
 
-string_count.bat (video Batch 73 https://youtu.be/YEjPx3uAxkw)
+string_count.bat (video Batch 73 https://youtu.be/YEjPx3uAxkw). Video Batch 74 is missing.
