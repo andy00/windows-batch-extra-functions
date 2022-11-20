@@ -43,3 +43,4 @@ string_is_upper.bat (video batch 80 https://youtu.be/oJwBxSTD9vY)
 
 string_join.bat (video Batch 81 https://youtu.be/bkES3oGT-8U)
 
+to_lower.bat (video Batch 82 https://youtu.be/YrZurHOvr-w)

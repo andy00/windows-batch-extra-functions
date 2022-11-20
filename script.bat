@@ -79,5 +79,10 @@ setlocal
     call string_join "!stringcheck!" "..." xyz
     echo Return: !xyz!
     echo.
+    call create_string string "WHAT NOOOO, YESS, NOOO, YESS."
+    call to_lower "!string!" return
+    echo Return: !return!
+    echo.
+
 endlocal
 goto :eof
