@@ -64,8 +64,18 @@ setlocal
     call string_is_alpha "!check_alpha!" return
     echo Return: !return!
     echo.
-
-
+    call create_string stringcheck "alotofstuff"
+    call string_is_lower "!stringcheck!" return
+    echo Return: !return!
+    echo.
+    call create_string stringcheck "1"
+    call string_is_digits "!stringcheck!" return
+    echo Return: !return!
+    echo.
+    call create_string stringcheck "A LOT OF STUFF"
+    call string_is_upper "!stringcheck!" return
+    echo Return: !return!
+    echo.
 
 endlocal
 goto :eof
