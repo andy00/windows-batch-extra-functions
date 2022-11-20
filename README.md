@@ -5,7 +5,7 @@ All functions usage example is in script.bat.
 
 create_string.bat (video Batch 58 https://youtu.be/vIkg4eLWkMY, Batch 59 https://youtu.be/fpyTnDv6OP8 and Batch 60 https://youtu.be/r2kUMDmxOvA)
 
-create_array.bat (video Batch 61 https://youtu.be/l0ib2kCaVuA). How to use, see script.bat
+create_array.bat (video Batch 61 https://youtu.be/l0ib2kCaVuA).
 
 enableddelayedexpansion.bat and disabledelayedexpansion.bat (video Batch 62 https://youtu.be/hCcWfzTPavk). Need to run CMD as administrator. Video Batch 63 is just testing these script.
 
@@ -28,3 +28,5 @@ string_center.bat (video Batch 71 https://youtu.be/pnDaN-wgvp0)
 capitalize.bat (video Batch 72 https://youtu.be/aIBHcM2ia64)
 
 string_count.bat (video Batch 73 https://youtu.be/YEjPx3uAxkw). Video Batch 74 is missing.
+
+string_starts_with.bat and string_ends_with.bat (video Batch 75 https://youtu.be/qvAZGN8VDgU)

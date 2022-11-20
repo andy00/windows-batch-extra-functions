@@ -50,5 +50,13 @@ setlocal
     echo.
     call string_count "!sentence!" " " total
     echo Count is !total!
+    echo.
+    call string_starts_with "!sentence!" "a " does_it
+    echo Does it: !does_it!
+    echo.
+    call string_ends_with "!sentence!" "ff" does_it
+    echo Does it: !does_it!
+    echo.
+
 endlocal
 goto :eof
