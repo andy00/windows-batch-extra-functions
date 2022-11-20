@@ -76,6 +76,8 @@ setlocal
     call string_is_upper "!stringcheck!" return
     echo Return: !return!
     echo.
-
+    call string_join "!stringcheck!" "..." xyz
+    echo Return: !xyz!
+    echo.
 endlocal
 goto :eof

@@ -40,3 +40,6 @@ string_is_lower.bat (video Batch 78 https://youtu.be/mZw16NKcU8I)
 string_is_digits.bat (video batch 79 https://youtu.be/S7_ZP_yy6LU)
 
 string_is_upper.bat (video batch 80 https://youtu.be/oJwBxSTD9vY)
+
+string_join.bat (video Batch 81 https://youtu.be/bkES3oGT-8U)
+
