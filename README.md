@@ -30,3 +30,9 @@ capitalize.bat (video Batch 72 https://youtu.be/aIBHcM2ia64)
 string_count.bat (video Batch 73 https://youtu.be/YEjPx3uAxkw). Video Batch 74 is missing.
 
 string_starts_with.bat and string_ends_with.bat (video Batch 75 https://youtu.be/qvAZGN8VDgU)
+
+string_find.bat (video Batch 76 https://youtu.be/ResoYgd6yzI)
+
+string_is_alpha.bat (video Batch 77 https://youtu.be/jSQNShYsf4s)
+
+string_is_lower.bat (video Batch 78 https://youtu.be/jSQNShYsf4s)

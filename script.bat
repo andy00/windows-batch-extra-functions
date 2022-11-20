@@ -57,6 +57,15 @@ setlocal
     call string_ends_with "!sentence!" "ff" does_it
     echo Does it: !does_it!
     echo.
+    call string_find "!sentence!" "f" position 12
+    echo Position: !position!
+    echo.
+    call create_string check_alpha "alotofstuff"
+    call string_is_alpha "!check_alpha!" return
+    echo Return: !return!
+    echo.
+
+
 
 endlocal
 goto :eof
