@@ -79,8 +79,16 @@ setlocal
     call string_join "!stringcheck!" "..." xyz
     echo Return: !xyz!
     echo.
-    call create_string string "WHAT NOOOO, YESS, NOOO, YESS."
+    call create_string string "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     call to_lower "!string!" return
+    echo Return: !return!
+    echo.
+    call create_string string "abcdefghijklmopqrstuvwxyz"
+    call to_upper "!string!" return
+    echo Return: !return!
+    echo.
+    call create_string string "abcde ABCDE 12345 QWEasd 67890 xyz YUIOP"
+    call string_swapcase "!string!" return
     echo Return: !return!
     echo.
 
