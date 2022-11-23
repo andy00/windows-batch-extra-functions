@@ -48,3 +48,8 @@ to_lower.bat (video Batch 82 https://youtu.be/YrZurHOvr-w)
 to_upper.bat (video Batch 83 https://youtu.be/O5ctCtywBwI)
 
 string_swapcase.bat (video Batch 84 https://youtu.be/Epj-ThprjM4)
+
+array_append.bat (video Batch 85 https://youtu.be/PbccRjQr-n4)
+
+array_count.bat (video Batch 86 https://youtu.be/kaBZCT4jyUE)
+

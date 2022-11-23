@@ -40,56 +40,65 @@ setlocal
     echo Sorted: !numberz!
     echo.
     call create_string sentence "a lot of stuff"
+    echo create_string: %sentence%
     echo Sentence Length: %sentence_length%
     echo.
     call string_center sentence 1 fill
-    echo !fill!
+    echo string_center: !fill!
     echo.
     call capitalize "!sentence!" return
-    echo Return: !return!
+    echo capitalize: !return!
     echo.
     call string_count "!sentence!" " " total
-    echo Count is !total!
+    echo string_count: !total!
     echo.
     call string_starts_with "!sentence!" "a " does_it
-    echo Does it: !does_it!
+    echo string_starts_with: !does_it!
     echo.
     call string_ends_with "!sentence!" "ff" does_it
-    echo Does it: !does_it!
+    echo string_ends_with: !does_it!
     echo.
     call string_find "!sentence!" "f" position 12
-    echo Position: !position!
+    echo string_find: !position!
     echo.
     call create_string check_alpha "alotofstuff"
     call string_is_alpha "!check_alpha!" return
-    echo Return: !return!
+    echo string_is_alpha: !return!
     echo.
     call create_string stringcheck "alotofstuff"
     call string_is_lower "!stringcheck!" return
-    echo Return: !return!
+    echo string_is_lower: !return!
     echo.
     call create_string stringcheck "1"
     call string_is_digits "!stringcheck!" return
-    echo Return: !return!
+    echo string_is_digits: !return!
     echo.
     call create_string stringcheck "A LOT OF STUFF"
     call string_is_upper "!stringcheck!" return
-    echo Return: !return!
+    echo string_is_upper: !return!
     echo.
     call string_join "!stringcheck!" "..." xyz
-    echo Return: !xyz!
+    echo string_join: !xyz!
     echo.
     call create_string string "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     call to_lower "!string!" return
-    echo Return: !return!
+    echo to_lower: !return!
     echo.
     call create_string string "abcdefghijklmopqrstuvwxyz"
     call to_upper "!string!" return
-    echo Return: !return!
+    echo to_upper: !return!
     echo.
     call create_string string "abcde ABCDE 12345 QWEasd 67890 xyz YUIOP"
     call string_swapcase "!string!" return
-    echo Return: !return!
+    echo string_swapcase: !return!
+    echo.
+    call create_array array " " "What am I"
+    call array_append array " " "missing"
+    echo array_append: !array!
+    echo.
+    call create_array array " " "this is a fish, is it not"
+    call array_count array "is" return
+    echo array_count: !return!
     echo.
 
 endlocal
