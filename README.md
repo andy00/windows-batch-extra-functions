@@ -53,3 +53,10 @@ array_append.bat (video Batch 85 https://youtu.be/PbccRjQr-n4)
 
 array_count.bat (video Batch 86 https://youtu.be/kaBZCT4jyUE)
 
+array_index.bat (video Batch 87 https://youtu.be/aVeYJNn0x_Y)
+
+array_insert.bat (video Batch 88 https://youtu.be/vA_7EkuINrU)
+
+array_remove.bat (video Batch 89 https://youtu.be/VVNkMwrvARc)
+
+array_reverse.bat (video Batch 90 https://youtu.be/9_jkGEM_e2Y)

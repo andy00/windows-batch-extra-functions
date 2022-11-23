@@ -100,6 +100,19 @@ setlocal
     call array_count array "is" return
     echo array_count: !return!
     echo.
+    call create_array array " " "I am really hungry"
+    call array_index array "hungry" return
+    echo array_index: !return!
+    echo.
+    call array_insert array " " "not" 2
+    echo array_insert: !array!
+    echo.
+    call array_remove array " " 0
+    echo array_remove: !array!
+    echo.
+    call array_reverse array " "
+    echo array_reverse: !array!
+    echo.
 
 endlocal
 goto :eof
